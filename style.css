@@ -1,0 +1,162 @@
+/* Basic Reset and Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+  }
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #hero .container {
+    max-width: 800px;
+  }
+  
+  #hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #hero .name {
+    color: #00796b;
+  }
+  
+  #hero h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  #hero .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #00796b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  #hero .btn:hover {
+    background-color: #004d40;
+  }
+  #certifications {
+    background-color: #f1f8f6;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #certifications .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cert-item {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .cert-item h3 {
+    color: #00796b;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  .cert-item p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .cert-item a {
+    color: #004d40;
+    text-decoration: underline;
+    text-align: center;
+  }
+  #projects {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #projects .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    background-color: #f9f9f9;
+  }
+  
+  .project h3 {
+    color: #00796b;
+  }
+  
+  .project p {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+  section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00796b;
+  }
+  #contact {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #contact .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  #contact a {
+    color: #00796b;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  footer a:hover {
+    color: #c8e6c9;
+  }
+  
+  
+  
+  
